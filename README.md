@@ -1,6 +1,6 @@
 # nativeiosdevelopmenttalk
 
-/
+##Creating a new object
 
 ### Objective-C
 ``` Objective-C
@@ -15,7 +15,7 @@ matt.sayHello()
 ```
 
 
-String Concatenation
+##String Concatenation
 
 
 ### Objective-C
@@ -45,9 +45,7 @@ if person.employer {
 
 
 
-
-
-Switch Statements
+##Switch Statements
 
 ### Objective-C
 
