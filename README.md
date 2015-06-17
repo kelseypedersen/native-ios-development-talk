@@ -77,8 +77,8 @@ switch person.name {
 ```
 
 Pros:
-- increased performance over Objective-C
-- syntax is more concise and friendly, which decreases length of code and development time
+- Increased performance over Objective-C
+- Syntax is more concise and friendly, which decreases length of code and development time
 
 Cons:
 - Still a bit buggy after late 2014 release
