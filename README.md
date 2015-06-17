@@ -1,4 +1,4 @@
-# nativeiosdevelopmenttalk
+# Native iOS Development Thunder Talk
 
 ##Creating a new object
 
