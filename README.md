@@ -20,6 +20,7 @@ String Concatenation
 
 ### Objective-C
 
+``` Objective-C
 Person *person = ...;
 
 NSMutableString *description = [[NSMutableString alloc] init];
@@ -29,10 +30,10 @@ if (person.employer) {
 } else {
   [description appendString:@" They are unemployed."];
 }
-
+```
 
 ### Swift
-
+``` Swift
 var description = ""
 description += "\(person.name) is \(person.age) years old."
 if person.employer {
@@ -40,7 +41,7 @@ if person.employer {
 } else {
     description += " They are unemployed."
 }
-
+```
 
 
 
@@ -50,6 +51,7 @@ Switch Statements
 
 ### Objective-C
 
+``` Objective-C
 if ([person.name isEqualToString:@"Matt Galloway"]) {
   NSLog(@"Author of an interesting Swift article");
 } else if ([person.name isEqualToString:@"Ray Wenderlich"]) {
@@ -59,10 +61,11 @@ if ([person.name isEqualToString:@"Matt Galloway"]) {
 } else {
   NSLog(@"Someone else);
 }
-
+```
 
 ###Swift
 
+``` Swift
 switch person.name {
   case "Matt Galloway":
     println("Author of an interesting Swift article")
@@ -73,6 +76,7 @@ switch person.name {
   default:
     println("Someone else")
 }
+```
 
 Pros:
 - increased performance over Objective-C
